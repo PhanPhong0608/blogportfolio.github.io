@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Networking Basics | Khóa học Mạng cơ bản</title>
+    <meta name="description" content="Giới thiệu về các khái niệm cơ bản trong mạng máy tính, từ các loại mạng đến bảo mật và quản lý mạng." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="index.html" aria-label="Trang chủ">
+                <img class="logo" src="pics/hinhdaidien.jpg"
+                    onerror="this.style.display='none'">
+                <span class="brand-text">PhanThanhPhong-Blog</span>
+            </a>
+            <nav class="menu">
+                <a href="index.html#gioi-thieu">Giới thiệu</a>
+                <a href="index.html#du-an">Dự án</a>
+                <a href="blog.html">Blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="max-width:860px; padding:var(--g6) var(--g4)">
+        <article class="card" style="padding:var(--g5)">
+            <header>
+                <p class="eyebrow">Khóa học Lập trình Java (W3Schools)</p>
+                <h1 class="display" style="font-size:clamp(28px,4vw,40px)">Khóa học Lập trình Java (W3Schools)</h1>
+                <p class="meta" style="margin-top:6px"><time datetime="2025-08-09">09/08/2025</time></p>
+            </header>
+            <hr style="border:0; border-top:1px solid var(--border); margin:16px 0" />
+            <img src="pics/javaW3.png">
+            <section style="max-width:75ch">
+                <ul>
+                    <li>Nhập môn Java qua ví dụ ngắn gọn, có khung chạy thử <em>Try it Yourself</em>.</li>
+                    <li>Phù hợp người mới bắt đầu; nội dung rõ ràng, dễ thực hành từng bước.</li>
+                </ul>
+
+                <h2>Mục tiêu học được</h2>
+                <ul>
+                    <li>Cài JDK và chạy chương trình Java đầu tiên (<code>javac</code>, <code>java</code>).</li>
+                    <li>Cú pháp cơ bản; biến, kiểu dữ liệu, toán tử, chuỗi (<code>String</code>), lớp <code>Math</code>.</li>
+                    <li>Điều kiện: <code>if/else</code>, <code>switch</code>; vòng lặp: <code>for</code>, <code>while</code>, <code>do...while</code>.</li>
+                    <li>Mảng, phương thức (truyền tham số, trả về, overload), phạm vi biến.</li>
+                    <li>Lập trình hướng đối tượng: lớp &amp; đối tượng, constructor, kế thừa, đa hình, đóng gói.</li>
+                    <li>Lớp trừu tượng, interface, enum, modifier (public/private/protected), package.</li>
+                    <li>Xử lý ngoại lệ (<code>try/catch/finally</code>, <code>throw</code>), <code>Scanner</code> đọc dữ liệu.</li>
+                    <li>Collections &amp; Generics cơ bản: <code>ArrayList</code>, <code>HashMap</code>, <code>HashSet</code>.</li>
+                    <li>Làm việc với tệp: đọc/ghi file; ngày giờ với <code>java.time</code>.</li>
+                    <li>Giới thiệu Lambda &amp; Stream (lọc, ánh xạ, duyệt).</li>
+                </ul>
+
+                <h2>Yêu cầu đầu vào</h2>
+                <ul>
+                    <li>Không cần kinh nghiệm trước; biết thao tác máy tính cơ bản.</li>
+                    <li>Đã cài JDK (nên dùng bản LTS như 17+) và một IDE nhẹ (VS Code/IntelliJ Community).</li>
+                </ul>
+
+                <h2>Hình thức &amp; tài nguyên</h2>
+                <ul>
+                    <li>Bài học kèm ví dụ, sandbox <em>Try it</em> để chạy trực tiếp.</li>
+                    <li>Phần <em>References</em> (String, Math, Date/Time, Collections…), Quiz và Exercises.</li>
+                    <li>Chứng chỉ trực tuyến (<em>Get Certified</em>) cho người học muốn kiểm chứng kiến thức.</li>
+                </ul>
+
+                <h2>Lộ trình gợi ý</h2>
+                <ol>
+                    <li>Giới thiệu &amp; cú pháp → Biến, Kiểu dữ liệu, Toán tử → Chuỗi, Math</li>
+                    <li>Điều kiện &amp; Vòng lặp → Mảng → Phương thức</li>
+                    <li>OOP: Lớp/Đối tượng → Constructor/Overloading → Kế thừa/Đa hình/Đóng gói</li>
+                    <li>Interface/Abstract/Enum → Modifiers &amp; Packages</li>
+                    <li>Exceptions → Collections &amp; Generics → File I/O → Date/Time → Lambda &amp; Stream</li>
+                </ol>
+
+                <h2>Kết quả đạt được</h2>
+                <ul>
+                    <li>Tự viết, biên dịch và chạy ứng dụng Java cơ bản.</li>
+                    <li>Thiết kế lớp, áp dụng nguyên lý OOP vào bài toán nhỏ.</li>
+                    <li>Biết đọc/tra cứu nhanh tài liệu Java trên W3Schools.</li>
+                </ul>
+
+                <h2>Mẹo học nhanh</h2>
+                <ul>
+                    <li>Tạo dự án console nhỏ (máy tính, quản lý việc làm, đọc CSV) để luyện tập.</li>
+                    <li>Ưu tiên đặt tên lớp/biến rõ ràng; chia mã thành phương thức ngắn.</li>
+                    <li>Mỗi chủ đề học xong → làm ngay Quiz/Exercises và áp vào mini project.</li>
+                </ul>
+            </section>
+
+            <nav style="margin-top:24px; display:flex; gap:12px">
+                <a class="btn ghost" href="blog.html">← Về danh sách</a>
+            </nav>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <h2>Thông tin</h2>
+                <ul class="foot-list">
+                        <li>📞 077 676 2368</li>
+                        <li>✉ phanphong0608@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <a class="brand" href="index.html" aria-label="Trang chủ"> </a>
+                <h2>Điều hướng</h2>
+                <ul class="foot-list">
+                    <li><a href="index.html#gioi-thieu">Giới thiệu</a></li>
+                    <li><a href="index.html#du-an">Dự án</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Kết nối</h2>
+                <ul class="foot-list">
+                    <li><a href="https://github.com/PhanPhong0608" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.facebook.com/phan.phong.496372" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">© <span id="year">2025</span> • PHAN THANH PHONG</div>
+    </footer>
+
+    <script>const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
